@@ -26,4 +26,10 @@ public interface ProductoService {
 
     //Lista de productos utilizando consultas con SQL Nativo
     public List<Producto> metodoNativo(double precioInf, double precioSup);
+
+    // Lista de productos filtrados por nombre
+    public List<Producto> buscarPorDescripcion(String descripcion);
+
+
+
 }
