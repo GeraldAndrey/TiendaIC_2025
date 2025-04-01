@@ -8,10 +8,9 @@
         <header th:replace="~{layout/plantilla :: header}">
         </header>
         
-        <div class="container">
-            <h2>[[#{index.nuestrosProductos}]]</h2>
-            <!-- Aquí puedes agregar el contenido principal de tu página -->
-        </div>
+        <header th:replace="~{layout/plantilla :: header}"/>
+        <section th:replace="~{carrito/fragmentos :: listadoProductos}"/>
+        <footer th:replace="~{layout/plantilla :: footer}"/>          
         
         <footer th:replace="~{layout/plantilla :: footer}">
         </footer>
